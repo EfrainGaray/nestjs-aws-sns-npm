@@ -1,0 +1,29 @@
+{
+  "name": "nestjs-aws-e",
+  "version": "0.0.1",
+  "description": "conexion a amazon aws, servicio SNS, publishing message",
+  "main": "dist/index",
+  "types": "dist/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "aws",
+    "sns",
+    "amazon"
+  ],
+  "author": "Efrain Garay A.",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/common": "^7.6.15",
+    "aws-sdk": "^2.896.0",
+    "rxjs": "^6.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.2.4"
+  }
+}
