@@ -1,6 +1,6 @@
 {
   "name": "nestjs-aws-e",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "conexion a amazon aws, servicio SNS, publishing message",
   "main": "dist/index",
   "types": "dist/index",
