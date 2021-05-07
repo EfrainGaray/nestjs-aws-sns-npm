@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.1](https://github.com/LuftBioMonitor/nestjs-aws-npm/compare/v1.0.0...v1.0.1) (2021-05-07)
+
+
+### Bug Fixes
+
+* **ci:** new ci yaml ([536b71f](https://github.com/LuftBioMonitor/nestjs-aws-npm/commit/536b71f357381096b8f5b38d27fa8cca49465bc4))
+
 # 1.0.0 (2021-05-07)
 
 
