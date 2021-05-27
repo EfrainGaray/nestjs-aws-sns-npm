@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/LuftBioMonitor/nestjs-aws-npm/compare/v1.0.1...v1.1.0) (2021-05-27)
+
+
+### Features
+
+* add confirmSubscription SNS ([#8](https://github.com/LuftBioMonitor/nestjs-aws-npm/issues/8)) ([30ffbc9](https://github.com/LuftBioMonitor/nestjs-aws-npm/commit/30ffbc9c7e5729ae2ca6b785cf82b3661d43a51e))
+
 ## [1.0.1](https://github.com/LuftBioMonitor/nestjs-aws-npm/compare/v1.0.0...v1.0.1) (2021-05-07)
 
 
