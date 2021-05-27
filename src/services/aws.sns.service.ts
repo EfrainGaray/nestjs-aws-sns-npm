@@ -37,4 +37,14 @@ export class AwsSnsService {
                 }, HttpStatus.BAD_REQUEST);
             });
     }
+    async confirmSubscription(params){
+        return this._sns.confirmSubscription(params).promise().then( data => data).catch((err) => {
+            Logger.error('error[confirmSubscription]:', err);
+            throw new HttpException({
+                statusCode: HttpStatus.BAD_REQUEST,
+                message: 'Failed to confirmSubscription',
+                data: err,
+            }, HttpStatus.BAD_REQUEST);
+        });
+    }
 }
