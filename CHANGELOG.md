@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/LuftBioMonitor/nestjs-aws-npm/compare/v1.2.0...v1.2.1) (2021-05-29)
+
+
+### Bug Fixes
+
+* delete interface ([#10](https://github.com/LuftBioMonitor/nestjs-aws-npm/issues/10)) ([b2126d3](https://github.com/LuftBioMonitor/nestjs-aws-npm/commit/b2126d3d091c70ed895254c6851f8b0c58985893))
+
 # [1.2.0](https://github.com/LuftBioMonitor/nestjs-aws-npm/compare/v1.1.0...v1.2.0) (2021-05-29)
 
 
