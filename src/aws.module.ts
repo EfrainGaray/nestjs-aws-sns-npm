@@ -1,6 +1,6 @@
 import { DynamicModule, Module } from '@nestjs/common';
 import {ISNSModuleAsyncOptions} from "./interfaces";
-import {AwsSnsService} from "./services";
+import {AwsQsqService, AwsSnsService} from "./services";
 import {CONFIG_CONNECTION_OPTIONS} from "./constants";
 
 
@@ -16,8 +16,9 @@ export class AwsNestModule {
                     inject: options.inject || [],
                 },
                 AwsSnsService,
+                AwsQsqService
             ],
-            exports: [AwsSnsService],
+            exports: [AwsSnsService, AwsQsqService],
         };
     }
 }
